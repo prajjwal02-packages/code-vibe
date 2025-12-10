@@ -1,8 +1,7 @@
-import React from 'react';
-
-
+import * as React from 'react';
+import { ReactNode } from 'react';
 type PropsType = {
-  children: React.ReactNode;
+  children: ReactNode;
 };
 
 const Button = ({ children }: PropsType) => {

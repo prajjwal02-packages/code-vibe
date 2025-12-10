@@ -1,6 +1,7 @@
-import React from 'react';
+import * as React from 'react';
+import { ReactNode } from 'react';
 type PropsType = {
-    children: React.ReactNode;
+    children: ReactNode;
 };
-declare const Button: ({ children }: PropsType) => import("react/jsx-runtime").JSX.Element;
+declare const Button: ({ children }: PropsType) => React.JSX.Element;
 export { Button };
